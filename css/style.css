@@ -19,3 +19,35 @@ body{
     background: var(--bg-color);
     color: var(--text-color);
 }
+
+/* header Style */
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding: 35px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .50s ease;
+}
+.logo img{
+    width: 100%;
+    height: auto;
+    
+}
+.navlist{
+    display: flex;
+}
+.navlist a{
+    display: inline-block;
+    margin: 0 35px;
+    color: var(--text-color);
+    font-size: var(--p-font);
+    transition: all .6s ease;
+    text-decoration: none;
+}
+.navlist a:hover{
+    color: var(--main-color);
+}
